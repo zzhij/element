@@ -1,9 +1,9 @@
 <template>
   <div class="el-table"
     :class="[{
-      'el-table--fit': fit,
-      'el-table--striped': stripe,
-      'el-table--border': border || isGroup,
+      'el-table--fit': fit, // 自适应class
+      'el-table--striped': stripe, // 条纹样式
+      'el-table--border': border || isGroup, // 边框样式
       'el-table--hidden': isHidden,
       'el-table--group': isGroup,
       'el-table--fluid-height': maxHeight,
